@@ -1,0 +1,35 @@
+<template>
+  <div class="formulas-title"><p>Посмотрите видео-материал и выполните задание.</p></div>
+  <div class="video">
+    <iframe width="324" height="210" src="https://www.youtube.com/embed/hCU_beywf7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="pdf">
+    <iframe src="https://drive.google.com/file/d/1XaPMsHg_6SjLicoaYJOnu7R1x390DQlN/preview" width="800" height="280" allow="autoplay"></iframe>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "DifrResh",
+}
+</script>
+
+<style scoped>
+.formulas-title {
+  margin-top: 20px;
+  font-family: HSE Sans,serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: black;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.pdf {
+}
+</style>
